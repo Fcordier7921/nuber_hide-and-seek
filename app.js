@@ -21,7 +21,7 @@ function verifier(nobure) {
 
 
     } else {
-        instructions.textContent = `#${coup} (${nobure}) c'est le juste prix !`;
+        instructions.textContent = `#${coup} (${nobure}) c'est le bon nombre !`;
         instructions.className = " instruction fini";
         inpunt.style.display = "none";
         let button = document.querySelector('button');
