@@ -1,32 +1,20 @@
 html,
 body {
-    background-color: #232020;
-    min-width: 500px;
+    background: #2980B9;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    min-width: 400px;
 }
 
-header {
-    color: #ff7315;
-    text-align: center;
-    font-size: 3em;
+#ville {
+    text-transform: capitalize;
 }
 
-#instructions {
-    color: white;
+#temperature {
+    font-size: 4em;
 }
 
-.instruction {
-    padding: 15px;
-    margin: 10px 0;
-}
-
-.plus {
-    background-color: #f67280;
-}
-
-.moins {
-    background-color: #ffa372;
-}
-
-.fini {
-    background-color: #0c9463;
+#changer {
+    background: rgba(178, 223, 251, .3);
+    cursor: pointer;
 }
